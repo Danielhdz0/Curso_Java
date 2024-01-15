@@ -1,7 +1,51 @@
-Se va a realizar el uso de apache.
+JAVA
+EJECUCION EN VISUAL STUDIO CODE
+1.Generamos la clase ->javac.name.javac
+2.Ejecutamos el archivo java -> java name.java
 
+EJECUCION EN APACHE
 *Ejecucion rapida en apache 
     ->New Project
         ->Java with Ans
             ->Java aplication
 
+ATAJOS DE JAVA 
+sout+TAB-Manda a llamar a la salida de impresion 
+soutv+TAB-Manda a llamar a la salida con las ultimas variables definidas y concatenacion
+ctrl+space-nos muestra las variables definidas
+ctrl+click-nos permite ir a el lugar donde se definio una variable
+
+----------------------------------------------
+DEFINICIONES:
+MAIN-Es un metodo que permite la ejecucion de un programa,
+    -Permite la ejecucion de una clase 
+
+VARIABLES
+-Java es muy sensible a las MAYUS, utiliza el metodo de camello, (aBC)
+-Nos permiten almacenar informacion
+-El valor de la varibale puede modificarse con el tiempo
+-Pueden almacenar diferentes tipos de DATOS 
+-Las variables se pueden reutilizar
+    ->Una variable que ya fue definida no debe volver a definirse unicamente se hace uso del nombre de la variable (1.0)
+
+"VAR" INFERENCIA DE DATOS (2.0)
+A partir de java 10 se implemento la palabra var para que java infiriera el tipo de dato deribado del valor que tenga la variable
+var "name" = "valor"; 
+A partir del tipo de valor java de forma automatica define el tipo de variable
+
+CONCATENACION DE CADENAS 
+
+---------------------------------------------
+TIPOS DE DATOS:
+1.Tipos Primitivos
+Int:Enteros (numeros)
+Float:Flotantes(decimales)
+String:Cadenas(letras)
+
+2.Tipos Referenciados (Tipo Object)
+Clases
+Interfaces 
+Arrays
+
+3.Especiales
+var:adquiere cualquier tipo de dato
