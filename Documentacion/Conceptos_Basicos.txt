@@ -1,0 +1,7 @@
+Se va a realizar el uso de apache.
+
+*Ejecucion rapida en apache 
+    ->New Project
+        ->Java with Ans
+            ->Java aplication
+
