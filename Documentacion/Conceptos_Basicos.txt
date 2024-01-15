@@ -15,26 +15,48 @@ soutv+TAB-Manda a llamar a la salida con las ultimas variables definidas y conca
 ctrl+space-nos muestra las variables definidas
 ctrl+click-nos permite ir a el lugar donde se definio una variable
 
+CARACTERES ESPECIALES CON JAVA
+
+
 ----------------------------------------------
 DEFINICIONES:
 MAIN-Es un metodo que permite la ejecucion de un programa,
     -Permite la ejecucion de una clase 
 
+REGLAS PARA DEFINIR UNA VARIABLE (3.0)
+-Por convencion la primera letra debe ser MINUSCULA y luego usar MAYUS.
+-Si hay varias palabras en la variable se recomienda que cada inicio de palabra sea en MAYUS a excepcion de la primera palabra
+-NO se pueden utilizar numeros o caracteres especiales para definir una variable
+-Estan permitidos el $ y _, no se recomiendan pero estan permitidos
+->var miVariable = 1;
+->var _miVar = 1;
+->var $miVar = 1;
+
 VARIABLES
+-El nombre de la variable NO puede coincidir con ninguna palabra RESERVADA
+-No es recomendable usar nombres cortos en las variables
 -Java es muy sensible a las MAYUS, utiliza el metodo de camello, (aBC)
 -Nos permiten almacenar informacion
 -El valor de la varibale puede modificarse con el tiempo
 -Pueden almacenar diferentes tipos de DATOS 
 -Las variables se pueden reutilizar
     ->Una variable que ya fue definida no debe volver a definirse unicamente se hace uso del nombre de la variable (1.0)
+    VARIABLES LOCALES 
+    -Son variables que se pueden reutilizar pero unicamente donde fueron definidas.
+    VARIABLES GLOBALES
+    -Son variables que se pueden reutilizar en cualquier parte del codigo
 
 "VAR" INFERENCIA DE DATOS (2.0)
 A partir de java 10 se implemento la palabra var para que java infiriera el tipo de dato deribado del valor que tenga la variable
 var "name" = "valor"; 
 A partir del tipo de valor java de forma automatica define el tipo de variable
 
-CONCATENACION DE CADENAS 
+CONCATENACION DE CADENAS (AB_ConcatenacionJava)
+-Para unir 2 o mas variables es necesario utilizar el signo de +
+-Para colocar un espacio en blanco se utiliza (" ")
+-El uso del parentesis tambien modifica la prioridad 
 
+PALABRAS RESERVADAS 
 ---------------------------------------------
 TIPOS DE DATOS:
 1.Tipos Primitivos
